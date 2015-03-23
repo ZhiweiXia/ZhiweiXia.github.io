@@ -1,0 +1,91 @@
+/* style.css */ 
+body{ 
+font-family:"Helvetica", sans-serif; 
+font-size: 20px;
+color: #222;
+background-color:lightblue;
+line-height: normal;
+margin:20px;
+padding: 0px;
+} 
+
+
+header,h1{
+color: rgb(0,20,255);
+text-align: center;
+display: block;
+font-size: 2.5em;
+font-family: "RalewaySemibold";
+font-weight: bolder;
+line-height: 1em;
+padding-top: 8px;
+background-image: url(background.jpg);
+background-position: left;
+background-size:cover;
+}
+
+ul{
+list-style: inside circle;
+
+}
+
+nav,p a{
+color: rgb(0,0,0);
+display: block;
+font-size: 20px;
+font-family: "RalewaySemibold";
+font-weight: bold;
+padding-top: 0px;
+}
+
+header, section{
+border-bottom: 5px dotted rgb(0,0,255);
+}
+
+#Con{
+background-color: rgb(100,100,255);
+float: right;
+font-style:italic;
+font-weight: bold;
+text-align: center;
+border-left: 5px solid rgb(255,255,255);
+border-bottom: 5px solid rgb(255,255,255);
+padding-bottom: 0px;
+}
+
+#Men{
+text-align: center;
+}
+
+#Men p a{
+font-size: 20px;
+font-weight: bold;
+padding-bottom: 5.5px;
+color: blue;
+text-align: center;
+}
+
+#Com{
+float: right;
+text-align: left;
+border-left: 5px solid rgb(255,255,255);
+border-bottom: 5px solid rgb(255,255,255);
+overflow: auto;
+padding-bottom: 0px;
+}
+
+#Int{
+float: right;
+text-align: left;
+border-left: 5px solid rgb(255,255,255);
+border-bottom: 5px solid rgb(255,255,255);
+padding-bottom: 0px;
+}
+
+
+footer,em{ 
+font-style: normal;
+font-weight: bold;
+text-align: center;
+padding-top: 10px;
+} 
