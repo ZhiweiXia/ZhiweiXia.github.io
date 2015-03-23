@@ -24,6 +24,17 @@ background-position: left;
 background-size:cover;
 }
 
+a,
+a:visited {
+  color: #00C540;
+}
+
+a:hover,
+a:focus {
+  color: #00EB4A;
+  transition: color 0.75s ease;
+}
+
 ul{
 list-style: inside circle;
 
