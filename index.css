@@ -5,7 +5,7 @@ font-size: 20px;
 color: #222;
 background-color:lightblue;
 line-height: normal;
-margin:20px;
+margin:5px;
 padding: 0px;
 } 
 
@@ -26,12 +26,12 @@ background-size:cover;
 
 a,
 a:visited {
-  color: #00C540;
+  color: #00A900;
 }
 
 a:hover,
 a:focus {
-  color: #00EB4A;
+  color: #00EB0A;
   transition: color 0.75s ease;
 }
 
