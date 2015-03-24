@@ -1,0 +1,36 @@
+* {
+  color: black;
+  background: transparent;
+  font-size: 12pt;
+  font-family: serif;
+}
+
+@page {
+  margin: 0.5in;
+}
+
+nav {
+  /* Is navigation necessary in print? What other elements
+     are not necessary? */
+}
+
+a {
+  /* How should links look on paper? Does it matter? */
+}
+
+a[href$=".html"] {
+  /* internal links */
+}
+
+a[href$=".html"]:after {
+  /* internal links: content of the href attribute after link text */
+}
+
+a[href^="http://"],
+a[href^="https://"] {
+  /* external links */
+}
+
+a[href^="http://"]:after {
+  /* external links: content of the href attribute after link text */
+}

@@ -19,7 +19,7 @@ font-family: "RalewaySemibold";
 font-weight: bolder;
 line-height: 1em;
 padding-top: 8px;
-background-image: url(background.jpg);
+background-image: url(../img/background.jpg);
 background-position: left;
 background-size:cover;
 }
