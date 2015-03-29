@@ -1,36 +1,59 @@
-* {
+*{
   color: black;
   background: transparent;
   font-size: 12pt;
-  font-family: serif;
+  font-family:"Times New Roman", "Georgia", Serif;
+}
+
+
+header,h1{
+color: black;
+font-size: 20pt;
+font-family: serif;
+font-weight: bolder;
+padding-top: 0px;
+}
+
+h2{
+font-size: 20pt;
+}
+
+header, section{
+border-bottom: 5px dotted rgb(0,0,0);
 }
 
 @page {
-  margin: 0.5in;
+  margin: 0.3in;
 }
 
+
+#Men,
 nav {
-  /* Is navigation necessary in print? What other elements
-     are not necessary? */
+display:none;
 }
+
 
 a {
-  /* How should links look on paper? Does it matter? */
+text-decoration: none;
 }
 
-a[href$=".html"] {
-  /* internal links */
+a[href$="z.xia2@umiami.edu"] {
+color: black;
+display: inline;
 }
 
-a[href$=".html"]:after {
-  /* internal links: content of the href attribute after link text */
+a[href$="z.xia2@umiami.edu"]:after {
+ content: "("attr(href) ")";
 }
 
-a[href^="http://"],
-a[href^="https://"] {
-  /* external links */
+a[href^="http://www.cucn.edu.cn/"],
+a[href^="http://www.Miami.edu/"] {
+display: inline;
+color: black;
 }
 
-a[href^="http://"]:after {
-  /* external links: content of the href attribute after link text */
+a[href^="http://www.cucn.edu.cn/"] after,
+a[href^="http://www.Miami.edu/"] after {
+  content: " (" attr(href) ") ";
 }
+

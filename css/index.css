@@ -1,11 +1,21 @@
 /* style.css */ 
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600);
+html {
+    width: 750px;
+    margin-left:auto;
+    margin-right:auto;
+    border-left: 5px solid rgb(255,255,255);
+    border-right: 5px solid rgb(255,255,255);
+}
+
 body{ 
 font-family:"Helvetica", sans-serif; 
-font-size: 20px;
+font-size: 18px;
 color: #222;
 background-color:lightblue;
 line-height: normal;
-margin:5px;
+margin:0px;
 padding: 0px;
 } 
 
@@ -14,15 +24,24 @@ header,h1{
 color: rgb(0,20,255);
 text-align: center;
 display: block;
-font-size: 2.5em;
-font-family: "RalewaySemibold";
-font-weight: bolder;
+font-size: 2em;
+font-family: 'Raleway', sans-serif;
+font-weight: normal;
 line-height: 1em;
 padding-top: 8px;
 background-image: url(../img/background.jpg);
 background-position: left;
 background-size:cover;
 }
+
+ul{
+list-style: inside circle;
+}
+
+header, section{
+border-bottom: 5px dotted rgb(0,0,255);
+}
+
 
 a,
 a:visited {
@@ -35,62 +54,60 @@ a:focus {
   transition: color 0.75s ease;
 }
 
-ul{
-list-style: inside circle;
-
+nav {
+    padding: 0 8px;
 }
 
-nav,p a{
-color: rgb(0,0,0);
-display: block;
+.menu li a{
 font-size: 20px;
-font-family: "RalewaySemibold";
-font-weight: bold;
-padding-top: 0px;
-}
-
-header, section{
-border-bottom: 5px dotted rgb(0,0,255);
-}
-
-#Con{
-background-color: rgb(100,100,255);
-float: right;
-font-style:italic;
-font-weight: bold;
-text-align: center;
-border-left: 5px solid rgb(255,255,255);
-border-bottom: 5px solid rgb(255,255,255);
-padding-bottom: 0px;
-}
-
-#Men{
-text-align: center;
-}
-
-#Men p a{
-font-size: 20px;
-font-weight: bold;
 padding-bottom: 5.5px;
-color: blue;
-text-align: center;
+font-family: "Lato", sans-serif;
+font-weight: bold;
+display: inline-block;
+position:relative;
+text-decoration: none;
 }
 
-#Com{
-float: right;
-text-align: left;
-border-left: 5px solid rgb(255,255,255);
-border-bottom: 5px solid rgb(255,255,255);
-overflow: auto;
-padding-bottom: 0px;
+#Men {
+    padding: 0 8px;
+}
+    
+#Edu {
+    padding: 0 8px;
+}
+
+article {
+    padding-left: 40px;
 }
 
 #Int{
-float: right;
 text-align: left;
-border-left: 5px solid rgb(255,255,255);
-border-bottom: 5px solid rgb(255,255,255);
-padding-bottom: 0px;
+padding: 0 8px;
+position: relative;
+display: block;
+float: left;
+border-bottom: none;
+}
+
+
+#Com{
+display: block;
+text-align: left;
+padding: 0 8px;
+padding-bottom: 45px;
+border-bottom: none;
+clear:right;
+}
+
+
+#Hon {
+    padding: 0 8px;
+    border-top:5px dotted rgb(0,0,255); 
+    line-height: 1.5em;
+}
+
+#Con{
+padding: 0 8px;
 }
 
 
@@ -100,3 +117,4 @@ font-weight: bold;
 text-align: center;
 padding-top: 10px;
 } 
+
