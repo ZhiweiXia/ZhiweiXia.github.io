@@ -1,41 +1,63 @@
 *{
   color: black;
   background: transparent;
-  font-size: 12pt;
+  font-size: 10px;
   font-family:"Times New Roman", "Georgia", Serif;
-}
-
-
-header,h1{
-color: black;
-font-size: 20pt;
-font-family: serif;
-font-weight: bolder;
-padding-top: 0px;
-}
-
-h2{
-font-size: 20pt;
-}
-
-header, section{
-border-bottom: 5px dotted rgb(0,0,0);
+ 
 }
 
 @page {
   margin: 0.3in;
 }
 
+header h1{
+color: black;
+font-size: 10px;
+font-family: serif;
+font-weight: bold;
+padding-top: 0px;
+margin-top: 0px;
+}
 
-#Men,
+h2{
+font-size: 10px;
+color: black;
+}
+
+header section{
+border-bottom:none;
+}
+
+
+header .tmenu{
+display: none;
+}
+
+.icon{
+display: none;
+}
+
+#men,
 nav {
 display:none;
 }
 
-
-a {
-text-decoration: none;
+#int{
+border-bottom: none;
 }
+
+ul li{
+list-style: none;
+}
+
+#edu {
+margin-bottom: 0px;    
+}
+
+#com{
+border-bottom: none;
+}
+
 
 a[href$="z.xia2@umiami.edu"] {
 color: black;
@@ -57,3 +79,6 @@ a[href^="http://www.Miami.edu/"] after {
   content: " (" attr(href) ") ";
 }
 
+footer{
+display: none;
+}

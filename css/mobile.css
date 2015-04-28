@@ -137,12 +137,22 @@ header span {
   width: 140px;
   height: 100px;
   margin-top: 5px;
+  
 }
         
 #total #publish{
   width:90px;
   height:120px;
   margin-left: -40px;
+  padding-top: 0px;
+  margin-top: 0;
+  text-align: center;
+}
+
+#total #poster{
+  width:175px;
+  height:100px;
+  margin-left: -5px;
   padding-top: 0px;
 }
 
