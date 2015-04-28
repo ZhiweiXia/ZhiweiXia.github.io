@@ -5,6 +5,9 @@ body {
   font-size: 12px;
 }
 
+h2{
+text-align: center;
+}
 p, address {
   line-height: 1.5em;
 }
@@ -175,6 +178,9 @@ header span {
   margin-top: 0px;
 }
 
+#bblock #con {
+margin-left:42px;
+}
 footer {
   font-size: 5px;
 }
