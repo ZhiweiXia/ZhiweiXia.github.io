@@ -1,0 +1,173 @@
+@media (max-width: 320px) {
+
+body {
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+p, address {
+  line-height: 1.5em;
+}
+
+.whole {
+  border: 0;
+  max-width: 320px;
+  margin: 0;
+  padding: 0.1em;
+}
+
+#total{
+  border: 0;
+  max-width: 320px;
+  margin: 0;
+  padding: 0.1em;
+}
+
+#bblock{
+  border: 0;
+  max-width: 320px;
+  margin: 0;
+  padding: 0.1em;
+}
+
+header h1 {
+  font-size: 50px;
+  line-height: 1em;
+  text-align: center;
+}
+
+h2{
+  font-size: 18px;
+  line-height: 1px;
+}
+
+h3{
+  font-size: 12px;
+  line-height: 1px;
+}
+ 
+#bblock header{
+  font-size: 10px;
+  line-height: 1em; 
+}    
+    
+#total header{
+  font-size: 10px;
+  line-height: 1em; 
+}    
+
+    
+header span {
+  display: inline;
+}
+
+.whole .menu li{
+  display:inline-block;
+}
+
+.whole .menu li a {
+  position: relative;
+}
+    
+.whole main .menu {
+  float: none;
+  margin-right:0px;
+  margin-top: 0px;
+  margin-left: 55px;
+}
+
+.nouse {
+  float: left;
+  margin-top: 10px;
+}
+    
+.whole .img-circle {
+  border-radius: 50%;
+  margin-top:30px;
+  margin-left: -45px;
+  width: 45px;
+  height: 60px;
+  vertical-align: middle;
+}
+    
+.whole #publish{
+  border-radius: 50%;
+  margin-top:29px;
+  margin-left: -45px;
+  width: 45px;
+  height: 60px;
+  vertical-align: middle;
+}
+
+#total .magazine2{
+  width: 140px;
+  height: 100px;
+}
+    
+#total #magazine2{
+  width: 90px;
+  height: 120px;
+  margin-left: 108px;
+}
+
+#total #mag-intro{
+  display:inline;
+  float:none;
+  background-color: #4478A6;
+  line-height: 1px;
+  text-align: center;
+  color:white;
+}
+    
+#total .mag h2{
+  text-align: center;
+}
+
+#total p{
+  text-align: center;
+  font-size: 5px;
+}
+
+#total a {
+  color:white;
+}
+    
+
+#total .brochure{
+  width: 140px;
+  height: 100px;
+  margin-top: 5px;
+}
+        
+#total #publish{
+  width:90px;
+  height:120px;
+  margin-left: -40px;
+  padding-top: 0px;
+}
+
+#total h3{
+  color:white;
+  padding-top: 5px;
+}
+
+#total h2{
+  padding-top: 10px;
+  margin-top: 0px;
+}
+    
+#bblock #com{
+  margin-bottom: 0px;
+  padding-bottom:0px;
+}
+    
+#bblock #hon{
+  margin-top: 0px;
+}
+
+footer {
+  font-size: 5px;
+}
+
+  
+}
